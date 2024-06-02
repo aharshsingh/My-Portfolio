@@ -1,0 +1,16 @@
+.dateContainer{
+    background-color: #cccccc;
+    border-radius: 40px;
+    width: 130px;
+    height: 30px;
+    position: relative;
+}
+.circleContainer{
+    border-radius:100%; 
+    background-color: #FFB400;
+    height:50px;
+    width:50px;
+    margin-left:350px;
+    margin-top:100px; 
+    position: relative
+}
