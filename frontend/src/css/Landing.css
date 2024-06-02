@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+}
+.shape{
+    height: 941px;
+}
+.rectangleShape {
+    position: absolute;
+    top: 60px; 
+    left: 50px; 
+    width: 500px;  
+    height: 800px; 
+    background-color: rgba(13, 13, 13, 1); 
+    border-radius: 40px;
+}
+.overlayImage {
+    position: absolute;
+    top: 200px;  
+    left: 0; 
+    width: 500px;  
+    height: 600px; 
+    border-radius: 40px;
+  }
+  .dash{
+    height: 5px;
+    width: 35px;
+    background-color: #FFB400;
+    margin-top: 25px;
+  }
+  .name{
+    color: #FFB400;
+    font-size: 50px;
+  }
+  .des{
+    color: #666666;
+    margin-left: 50px;
+    font-size: 50px;
+    margin-left: 200px;
+  }
+  .intro{
+    font-size: 25px;
+    color: #666666;
+    margin-left: 150px;
+  }
+  .cylinderButton{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 400px;
+    border-radius: 50px;
+    border: solid 1px #FFB400;
+    height: 50px;
+    width: 200px;
+    transition: background-color 0.2s;
+  }
+  .circle{
+    position: relative;
+    border-radius: 100%;
+    background-color: #FFB400;
+    height: 50px;
+    width: 50px;
+    margin-left: 1px;
+    cursor: pointer;
+  }
+  .cylinderButton:hover {
+    background-color: #ffb400;
+  }
+
+.cylinderButton:hover .clickForMore {
+    color: white; 
+  }
+  
+.rightArrow{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 39px;
+    width: 39px;
+}
+.clickForMore{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 18px;
+    color: #666666;
+    transition: color 0.2s;
+
+}
