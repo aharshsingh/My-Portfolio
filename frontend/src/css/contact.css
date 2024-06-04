@@ -1,0 +1,18 @@
+.circleContainercontact{
+    border-radius:100%; 
+    background-color: #FFB400;
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-top:0px; 
+    position: relative;
+}
+.circleContainercontact1{
+    border-radius:100%; 
+    background-color: #EEEEEE;
+    height:40px;
+    width:40px;
+    margin-left:0px;
+    margin-top:0px; 
+    position: relative;
+}
