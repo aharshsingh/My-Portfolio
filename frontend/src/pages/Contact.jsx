@@ -8,9 +8,12 @@ import linkedin from '../public/linkedin.svg'
 import github from '../public/github.svg'
 import facebook from '../public/facebook.svg'
 import instagram from '../public/instagram.svg'
+import Navbar from '../components/Navbar'
 export default function Contact() {
   return (
     <>
+    <div style={{display:'flex', columnGap:'440px'}}>
+        <div>
     <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
         <h1 className='resume'>GET IN</h1>
         <h2 className='aboutme'>TOUCH</h2>
@@ -58,6 +61,11 @@ export default function Contact() {
         <div className='circleContainercontact1'>
             <img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={github} alt='logo' />
         </div>
+    </div>
+    </div>
+    <div style={{marginTop: '280px'}}>
+        <Navbar/>
+    </div>
     </div>
     </>
   )

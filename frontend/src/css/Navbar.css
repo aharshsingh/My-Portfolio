@@ -1,0 +1,14 @@
+.circleContainercontact2{
+    border-radius:100%; 
+    background-color: #EEEEEE;
+    height:50px;
+    width:50px;
+    margin-left:0px;
+    margin-bottom:25px; 
+    position: relative;
+}
+.fixed-navbar {
+    position: fixed;
+    left: 20;
+    top: 100;
+  }

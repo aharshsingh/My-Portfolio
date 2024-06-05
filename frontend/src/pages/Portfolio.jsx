@@ -1,9 +1,12 @@
 import React from 'react';
 import '../css/Portfolio.css';
-import fashion from '../public/Screenshot 2024-06-03 031822.png';                                                                                                                                                 
+import fashion from '../public/Screenshot 2024-06-03 031822.png';   
+import Navbar from '../components/Navbar'                                                                                                                                              
 export default function Portfolio() {
   return (
     <>
+        <div style={{display:'flex', columnGap:'100px'}}>
+            <div>
     <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
         <h1 className='resume'>MY</h1>
         <h2 className='aboutme'>PORTFOLIO</h2>
@@ -39,6 +42,11 @@ export default function Portfolio() {
         </div>
       </div>
       <div style={{marginTop:'200px'}}></div>
+      </div>
+      <div style={{marginTop: '280px'}}>
+        <Navbar/>
+    </div>
+    </div>
     </>
   )
 }
