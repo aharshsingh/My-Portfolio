@@ -23,7 +23,7 @@ export default function Navbar() {
             <Link to='/Contact'><img style={{height:'25px', width:'25px', position:'absolute', left:'12px', top:'10px'}} src={contact} alt='logo' /></Link>
         </div>
         <div className='circleContainercontact2'>
-            <Link to='/'><img style={{height:'25px', width:'25px', position:'absolute', left:'12px', top:'10px'}} src={blog} alt='logo' /></Link>
+            <Link to='https://techweekle.blogspot.com/?'><img style={{height:'25px', width:'25px', position:'absolute', left:'12px', top:'10px'}} src={blog} alt='logo' /></Link>
         </div>
     </div>
     </>

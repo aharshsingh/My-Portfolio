@@ -9,6 +9,7 @@ import github from '../public/github.svg'
 import facebook from '../public/facebook.svg'
 import instagram from '../public/instagram.svg'
 import Navbar from '../components/Navbar'
+import {Link} from 'react-router-dom'
 export default function Contact() {
   return (
     <>
@@ -47,19 +48,19 @@ export default function Contact() {
     </div>
     <div style={{display:'flex', columnGap:'20px', marginTop: '50px', marginLeft:'850px'}}>
         <div className='circleContainercontact1'>
-            <img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={facebook} alt='logo' />
+            <Link to='https://www.facebook.com/profile.php?id=100006964755099&mibextid=ZbWKwL'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={facebook} alt='logo' /></Link>
         </div>
         <div className='circleContainercontact1'>
-            <img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={instagram} alt='logo' />
+            <Link to='https://www.instagram.com/aharsh_singh?utm_source=qr&igsh=MTI2YXcxaHZocTJ1eg=='><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={instagram} alt='logo' /></Link>
         </div>
         <div className='circleContainercontact1'>
-            <img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={twitter} alt='logo' />
+            <Link to='https://x.com/AharshSingh?t=2jJeEqWK596sph6mm6eF3Q&s=08'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={twitter} alt='logo' /></Link>
         </div>
         <div className='circleContainercontact1'>
-            <img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={linkedin} alt='logo' />
+            <Link to='https://www.linkedin.com/in/aharsh-singh-17917022a/'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={linkedin} alt='logo' /></Link>
         </div>
         <div className='circleContainercontact1'>
-            <img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={github} alt='logo' />
+            <Link to='https://github.com/aharshsingh'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={github} alt='logo' /></Link>
         </div>
     </div>
     </div>
