@@ -26,3 +26,6 @@ React: Frontend library for creating a dynamic and responsive user interface.
 Node.js: JavaScript runtime for building the server-side application.
 
 CSS3 & SASS: For styling the components and ensuring a modern and consistent look.
+
+
+Netlify Deployment : https://timely-trifle-420bd1.netlify.app
