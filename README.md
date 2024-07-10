@@ -33,3 +33,6 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/my-portfolio.git
    cd my-portfolio
+2. **Install dependencies:**
+   ```bash
+   npm install
