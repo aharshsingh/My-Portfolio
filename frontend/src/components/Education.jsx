@@ -32,7 +32,7 @@ export default function Education() {
         </div>
         <div style={{marginTop:'110px'}}>
             <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2021-Present</p>
+                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2019-2020</p>
             </div>
             <div style={{marginTop: '30px'}}>
             <p>HIGH SCHOOL</p>
@@ -52,7 +52,7 @@ export default function Education() {
         </div>
         <div style={{marginTop:'110px'}}>
             <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2021-Present</p>
+                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>July 2022</p>
             </div>
             <div style={{marginTop: '30px'}}>
             <p>SUMMER TRAINING</p>
@@ -70,7 +70,7 @@ export default function Education() {
         </div>
         <div style={{marginTop:'110px'}}>
             <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2021-Present</p>
+                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>Nov 2023</p>
             </div>
             <div style={{marginTop: '30px'}}>
             <p>BACKEND SPECIALIZATION</p>
@@ -90,7 +90,7 @@ export default function Education() {
         </div>
         <div style={{marginTop:'110px'}}>
             <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2021-Present</p>
+                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>Nov 2023</p>
             </div>
             <div style={{marginTop: '30px'}}>
             <p>FRONTEND SPECIALIZATION</p>
@@ -108,7 +108,7 @@ export default function Education() {
         </div>
         <div style={{marginTop:'110px'}}>
             <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2021-Present</p>
+                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>Dec 2023</p>
             </div>
             <div style={{marginTop: '30px'}}>
             <p>FRONTEND SPECIALIZATION</p>

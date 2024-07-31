@@ -11,7 +11,7 @@ export default function Navbar() {
     <>
     <div className='fixed-navbar'>
         <div className='circleContainercontact2'>
-            <Link to='/'><img style={{height:'25px', width:'25px', position:'absolute', left:'12px', top:'10px'}} src={home} alt='logo' /></Link>
+            <Link to='/'><img className='logonav' style={{height:'25px', width:'25px', position:'absolute', left:'12px', top:'10px'}} src={home} alt='logo' /></Link>
         </div>
         <div className='circleContainercontact2'>
             <Link to='/About'><img style={{height:'25px', width:'25px', position:'absolute', left:'12px', top:'10px'}} src={user} alt='logo' /></Link>

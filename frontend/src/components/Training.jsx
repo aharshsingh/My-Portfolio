@@ -5,8 +5,8 @@ export default function Training() {
     <>
       <div style={{display:'flex'}}>
         <div className='card'>
-            <p style={{fontSize: '40px', paddingLeft: '10px', color: '#FFB400'}}>6 Week</p>
-            <p style={{marginTop: '20px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Summer Training on Fullstack Development | Programming Pathshala</p>
+            <p style={{fontSize: '40px', paddingLeft: '10px', color: '#FFB400'}}>4 Week</p>
+            <p style={{marginTop: '20px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Web Developer Intern | <br/>Prosaf India</p>
         </div>
         <div className='card'>
             <p style={{fontSize: '40px', paddingLeft: '10px', color: '#FFB400'}}>2 Week</p>
@@ -19,8 +19,8 @@ export default function Training() {
             <p style={{marginTop: '20px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Developer Job Simulation | Accenture</p>
         </div>
         <div className='card'>
-            <p style={{fontSize: '40px', paddingLeft: '10px', color: '#FFB400'}}>4 Week</p>
-            <p style={{marginTop: '20px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Fundraising Intern | Youth Empowerment Foundation</p>
+            <p style={{fontSize: '40px', paddingLeft: '10px', color: '#FFB400'}}>6 Week</p>
+            <p style={{marginTop: '20px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Summer Training on Fullstack Development | Programming Pathshala</p>
         </div>
       </div>
     </>

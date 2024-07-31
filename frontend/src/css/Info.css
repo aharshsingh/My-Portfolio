@@ -6,3 +6,16 @@
     color: #666666;
     font-size: 20px;
 }
+.arrowimg{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.answerdiv{
+    display: flex;
+    column-gap: 10px;
+}
+#linkanswer:hover{
+    color: rgb(90, 90, 230);
+    text-decoration: underline;
+}

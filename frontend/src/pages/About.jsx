@@ -30,7 +30,7 @@ export default function About() {
     <h2 style={{fontSize: '30px',color:'#666666',marginLeft: '720px',marginTop:'100px'}}>EDUCATION & CERTIFICATION</h2>
     <Education/>
     </div>
-    <div style={{marginTop: '280px'}}>
+    <div style={{marginTop: '280px', marginLeft:'100px'}}>
         <Navbar/>
     </div>
     </div>

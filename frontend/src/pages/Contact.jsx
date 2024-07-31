@@ -13,7 +13,7 @@ import {Link} from 'react-router-dom'
 export default function Contact() {
   return (
     <>
-    <div style={{display:'flex', columnGap:'440px'}}>
+    <div style={{display:'flex', columnGap:'398px'}}>
         <div>
     <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
         <h1 className='resume'>GET IN</h1>

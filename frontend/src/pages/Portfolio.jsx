@@ -7,54 +7,74 @@ import Navbar from '../components/Navbar'
 import cpplib from '../public/cpplib.png'
 import onlinefood from '../public/onlinefood.png'
 import hotel from '../public/hotel-management-software.png'
-import cpu from '../public/cpu.png'
+import cpu from '../public/istockphoto-1397047877-.jpg'
 import uiux from '../public/uiux.jpg'
-import { Link } from 'react-router-dom'
+import extension from '../public/google-chrome-extensions-977x4881-976x488-1.jpg'
+import { Link } from 'react-router-dom';
+import twitter from '../public/twitter.jpg';
+import ct from '../public/ct_logo_ca47a20086.jpg'
 export default function Portfolio() {
   return (
     <>
-        <div style={{display:'flex', columnGap:'100px'}}>
-            <div>
-    <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
-        <h1 className='resume'>MY</h1>
-        <h2 className='aboutme'>PORTFOLIO</h2>
-    </div>
-    <div style={{display:'flex', marginLeft: '120px', marginTop: '100px'}}>
+    <div style={{display:'flex', columnGap:'166px'}}>
         <div>
-            <img className='imageProject' src={fashion} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'70px', marginTop:'25px', color:'#666666'}}>Fashion Ethnic E-Commerce Website</p>
-        </div>
-        <div>
-            <img className='imageProject' src={task} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'160px', marginTop:'25px', color:'#666666'}}>Task Manager </p>
-        </div>
-        <div>
-            <img className='imageProject' src={facetime} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'90px', marginTop:'25px', color:'#666666'}}>Face Time - Chating Website</p>
-        </div>
-        <div>
-            <img className='imageProject' src={cpplib} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'170px', marginTop:'25px', color:'#666666'}}>Task Manager </p>
-        </div>
-    </div>
-    <div style={{display:'flex', marginLeft: '120px', marginTop: '50px'}}>
-    <div>
-            <img className='imageProject' src={onlinefood} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'100px', marginTop:'25px', color:'#666666'}}> Online Food Ordering Website</p>
-        </div>
-        <div>
-            <img className='imageProject' src={hotel} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'120px', marginTop:'25px', color:'#666666'}}>Hotel Managment System</p>
-        </div>
-        <div>
-            <img className='imageProject' src={cpu} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'170px', marginTop:'25px', color:'#666666'}}>CPU Schedular</p>
-        </div>
-        <div>
-            <img className='imageProject' src={uiux} alt='imageProject' />
-            <p style={{fontSize:'20px', marginLeft:'120px', marginTop:'25px', color:'#666666'}}>UI/UX Project LPU Touch</p>
-        </div>
-    </div>
+            <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
+                <h1 className='resume'>MY</h1>
+                <h2 className='aboutme'>PORTFOLIO</h2>
+            </div>
+            <div style={{display:'flex', marginLeft: '300px', marginTop: '100px', columnGap:'40px'}}>
+
+                <div className='projectcard'>
+                    <img className='imageProject' src={fashion} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Fashion Ethnic</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Developed an E-commerce website with features like cart, Wishlist and used responsive to enhance customer experience</p>
+                    <Link to='https://github.com/aharshsingh/fashion_ethnic'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+
+                <div className='projectcard'>
+                    <img className='imageProject' src={task} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Task Manager</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Application allows users to manage their task with features like CRUD, prioritizing and categorizing</p>
+                    <Link to='https://github.com/aharshsingh/TaskManager'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+
+                <div className='projectcard'>
+                    <img className='imageProject' src={twitter} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Twitter Clone</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Developed features like followers, following, tweet post with images, showing tweets in chronological order in user feed</p>
+                    <Link to='https://github.com/aharshsingh/TwitterClone'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+
+                <div className='projectcard'>
+                    <img className='imageProject' src={ct} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Crypto Ticker</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>This project is a Node.js Express server that fetches the top 10 cryptocurrency tickers from the WazirX API</p>
+                    <Link to='https://github.com/aharshsingh/CryptoTicker'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+
+            </div>
+            <div style={{display:'flex', marginLeft: '480px', marginTop: '50px', columnGap:'40px'}}>
+                <div className='projectcard'>
+                    <img className='imageProject' src={extension} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Chrome Extension</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Chrome extrension which counts the hyperlinks on the webpage opened in browser</p>
+                    <Link to='https://github.com/aharshsingh/cromeExtension_hyperLink_counter'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+
+                <div className='projectcard'>
+                    <img className='imageProject' src={cpu} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>CPU Schedular</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>This project is based on round robin alogorithm CPU scheduler made with help of c++</p>
+                    <Link to='https://github.com/aharshsingh/Round_Robin_CPU_Scheduler'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+
+                <div className='projectcard'>
+                    <img className='imageProject' src={uiux} alt='imageProject' />
+                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>UI/UX Project</p>
+                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>This project involves the addition of new features to LPU Touch application and development of UI screens </p>
+                    <Link to='/'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                </div>
+            </div>
     <div style={{display: 'flex', columnGap: '10px', marginLeft: '540px', marginTop: '190px'}}>
         <h1 className='resume'>CO-CURRICUALAR</h1>
         <h2 className='aboutme'>ACTIVITY</h2>
