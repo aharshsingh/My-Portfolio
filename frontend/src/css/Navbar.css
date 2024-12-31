@@ -14,7 +14,7 @@
   }
 
 .circleContainercontact2:hover{
-    background-color: #FFB400;
+    background: linear-gradient(45deg, #ffb400, #ffc41d, #ffd332, #ffe345, #ffde44, #ffc535, #ffab2c, #ff912a); /* made at https://learnui.design/tools/gradient-generator.html */
     scale: 1.2;
     transition: 1s
 }

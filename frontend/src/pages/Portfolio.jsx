@@ -1,78 +1,70 @@
 import React from 'react';
 import '../css/Portfolio.css';
-import fashion from '../public/Screenshot 2024-06-03 031822.png';   
-import task from '../public/task.png'
-import facetime from '../public/facetime).jpg'
+import fashion from '../public/Untitled design.png';   
+import task from '../public/Screenshot 2024-12-29 163402.png'
 import Navbar from '../components/Navbar'   
-import cpplib from '../public/cpplib.png'
-import onlinefood from '../public/onlinefood.png'
-import hotel from '../public/hotel-management-software.png'
-import cpu from '../public/istockphoto-1397047877-.jpg'
-import uiux from '../public/uiux.jpg'
-import extension from '../public/google-chrome-extensions-977x4881-976x488-1.jpg'
 import { Link } from 'react-router-dom';
-import twitter from '../public/twitter.jpg';
-import ct from '../public/ct_logo_ca47a20086.jpg'
+import arrow from '../public/1arrow-up-right-from-square-solid.svg'
+import exam from '../public/Screenshot 2024-12-30 133515.png';
+import crypto from '../public/1675801227-cryptowallet.jpg'
+import ims from '../public/11Screenshot 2024-12-31 095542.png'
 export default function Portfolio() {
   return (
     <>
     <div style={{display:'flex', columnGap:'166px'}}>
         <div>
-            <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
+            <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px', marginBottom:'100px'}}>
                 <h1 className='resume'>MY</h1>
                 <h2 className='aboutme'>PORTFOLIO</h2>
             </div>
-            <div style={{display:'flex', marginLeft: '300px', marginTop: '100px', columnGap:'40px'}}>
-
-                <div className='projectcard'>
-                    <img className='imageProject' src={fashion} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Fashion Ethnic</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Developed an E-commerce website with features like cart, Wishlist and used responsive to enhance customer experience</p>
-                    <Link to='https://github.com/aharshsingh/fashion_ethnic'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+            <div className='outerCardDiv'>
+                <div>
+                    <img className='cardImage' src={fashion} alt='fashionEthnic' />
                 </div>
-
-                <div className='projectcard'>
-                    <img className='imageProject' src={task} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Task Manager</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Application allows users to manage their task with features like CRUD, prioritizing and categorizing</p>
-                    <Link to='https://github.com/aharshsingh/TaskManager'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                <div>
+                    <h1 style={{padding:'15px 15px 0px 18px', color:'#FFB400'}}>Fashion Ethnic</h1>
+                    <p style={{fontSize:'18px', padding:'20px', color:'#666666'}}>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <Link style={{textDecoration:'none'}}><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
-
-                <div className='projectcard'>
-                    <img className='imageProject' src={twitter} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Twitter Clone</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Developed features like followers, following, tweet post with images, showing tweets in chronological order in user feed</p>
-                    <Link to='https://github.com/aharshsingh/TwitterClone'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
-                </div>
-
-                <div className='projectcard'>
-                    <img className='imageProject' src={ct} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Crypto Ticker</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>This project is a Node.js Express server that fetches the top 10 cryptocurrency tickers from the WazirX API</p>
-                    <Link to='https://github.com/aharshsingh/CryptoTicker'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
-                </div>
-
             </div>
-            <div style={{display:'flex', marginLeft: '480px', marginTop: '50px', columnGap:'40px'}}>
-                <div className='projectcard'>
-                    <img className='imageProject' src={extension} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>Chrome Extension</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>Chrome extrension which counts the hyperlinks on the webpage opened in browser</p>
-                    <Link to='https://github.com/aharshsingh/cromeExtension_hyperLink_counter'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+            <div className='outerCardDiv'>
+                <div>
+                    <img className='cardImage' src={task} alt='ManageIt' />
                 </div>
-
-                <div className='projectcard'>
-                    <img className='imageProject' src={cpu} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>CPU Schedular</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>This project is based on round robin alogorithm CPU scheduler made with help of c++</p>
-                    <Link to='https://github.com/aharshsingh/Round_Robin_CPU_Scheduler'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+                <div>
+                    <h1 style={{padding:'15px 15px 0px 18px', color:'#FFB400'}}>ManageIt</h1>
+                    <p style={{fontSize:'18px', padding:'20px', color:'#666666'}}>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <Link style={{textDecoration:'none'}} to='https://taskmanagerapps.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
-
-                <div className='projectcard'>
-                    <img className='imageProject' src={uiux} alt='imageProject' />
-                    <p style={{fontSize:'22px', marginLeft:'10px', marginTop:'0px', color:'#000000', fontWeight:'bold'}}>UI/UX Project</p>
-                    <p style={{textAlign:'justify', marginLeft:'10px', marginTop:'10px', color:'#8d8d8d', fontSize:'16px', marginRight:'10px'}}>This project involves the addition of new features to LPU Touch application and development of UI screens </p>
-                    <Link to='/'><button className='projectview'><p className='buttonpara'>View on Github</p></button></Link>
+            </div>
+            <div className='outerCardDiv'>
+                <div>
+                    <img className='cardImage' src={exam} alt='examlynk' />
+                </div>
+                <div>
+                    <h1 style={{padding:'15px 15px 0px 18px', color:'#FFB400'}}>Examlynk</h1>
+                    <p style={{fontSize:'18px', padding:'20px', color:'#666666'}}>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <Link style={{textDecoration:'none'}} to='https://cipherschoolstestapp.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                </div>
+            </div>
+            <div className='outerCardDiv'>
+                <div>
+                    <img className='cardImage' src={ims} alt='tensightIMS' />
+                </div>
+                <div>
+                    <h1 style={{padding:'15px 15px 0px 18px', color:'#FFB400'}}>TensightIMS</h1>
+                    <p style={{fontSize:'18px', padding:'20px', color:'#666666'}}>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <Link style={{textDecoration:'none'}} to='https://tensight.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                </div>
+            </div>
+            <div className='outerCardDiv'>
+                <div>
+                    <img className='cardImage' src={crypto} alt='cryptoticker' />
+                </div>
+                <div>
+                    <h1 style={{padding:'15px 15px 0px 18px', color:'#FFB400'}}>CryptoTicker</h1>
+                    <p style={{fontSize:'18px', padding:'20px', color:'#666666'}}>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <Link style={{textDecoration:'none'}} to='https://cryptoticker.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
     <div style={{display: 'flex', columnGap: '10px', marginLeft: '540px', marginTop: '190px'}}>

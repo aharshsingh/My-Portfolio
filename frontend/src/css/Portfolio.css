@@ -40,3 +40,22 @@
 .projectview:hover .buttonpara{
     color: #ffffff;
 }
+
+.outerCardDiv{
+    margin-top: 30px;
+    margin-left: 420px;
+    border:#bebebe solid 1px;
+    border-radius: 15px;
+    width: 1100px;
+    transition: transform 0.3s ease;
+}
+.outerCardDiv:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Increased opacity and blur radius for a darker shadow */
+}
+
+.cardImage{
+    width: 1100px;
+    border-radius: 15px 15px 0 0;
+    height: 280px;
+}

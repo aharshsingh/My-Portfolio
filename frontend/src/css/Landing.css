@@ -1,9 +1,14 @@
 *{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.shape{
-    height: 941px;
+.shape {
+  height: 100vh; 
+  width: auto; 
+  object-fit: cover;
 }
+
 .rectangleShape {
     position: absolute;
     top: 60px; 
@@ -28,7 +33,10 @@
     margin-top: 25px;
   }
   .name{
-    color: #FFB400;
+      font-weight: bold; 
+  background: linear-gradient(45deg, #ffb400, #ffc41d, #ffd332, #ffe345, #ffde44, #ffc535, #ffab2c, #ff912a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 50px;
   }
   .des{
@@ -49,7 +57,7 @@
     border-radius: 50px;
     border: solid 1px #FFB400;
     height: 50px;
-    width: 200px;
+    width: 150px;
     transition: background-color 0.2s;
   }
   .circle{
@@ -58,7 +66,7 @@
     background-color: #FFB400;
     height: 50px;
     width: 50px;
-    margin-left: 1px;
+    margin-left: 5px;
     cursor: pointer;
   }
   .cylinderButton:hover {
@@ -83,4 +91,37 @@
     color: #666666;
     transition: color 0.2s;
 
+}
+.landing-container {
+  display: flex;
+  column-gap: 220px;
+}
+
+.landing-content {
+  display: flex;
+  column-gap: 100px;
+}
+
+.image-section {
+  position: relative;
+}
+
+.name-container {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 300px;
+  margin-left: 150px;
+}
+
+.navbar-section {
+  margin-top: 280px;
+}
+.typewriter-container {
+  width: 600px; 
+  text-align: left; 
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  
 }

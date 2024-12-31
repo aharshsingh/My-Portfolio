@@ -1,7 +1,11 @@
-  .aboutme {
-    font-size: 60px;  
-    color: #FFB400;
-  }
+.aboutme {
+  font-size: 60px; 
+  font-weight: bold; 
+  background: linear-gradient(45deg, #ffb400, #ffc41d, #ffd332, #ffe345, #ffde44, #ffc535, #ffab2c, #ff912a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
   .resume{
     font-size: 60px;  
     color: #666666;

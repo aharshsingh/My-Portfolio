@@ -17,7 +17,6 @@ import nextjs from '../public/nextjs.png'
 import netlify from '../public/netlify.png'
 import mysql from '../public/mysql.png'
 import express from '../public/express.png'
-import docker from '../public/docker.png'
 import '../css/Skill.css';
 
 export default function Skill() {
@@ -84,10 +83,6 @@ export default function Skill() {
         <div>
           <img style={{marginLeft: '100px'}} className='skillImage' src={netlify} alt='logo' />
           <p style={{marginLeft:"115px", marginTop:"10px"}}>Netlify</p>
-        </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={docker} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Docker</p>
         </div>
         <div>
           <img style={{marginLeft: '100px'}} className='skillImage' src={render} alt='logo' />
