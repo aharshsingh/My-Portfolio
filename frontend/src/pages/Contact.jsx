@@ -10,9 +10,13 @@ import facebook from '../public/facebook.svg'
 import instagram from '../public/instagram.svg'
 import Navbar from '../components/Navbar'
 import {Link} from 'react-router-dom'
+import NavBar from '../components/Navbar'
 export default function Contact() {
   return (
     <>
+    <div>
+        <NavBar/>
+    </div>
     <div style={{display:'flex', columnGap:'398px'}}>
         <div>
     <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
@@ -63,9 +67,6 @@ export default function Contact() {
             <Link to='https://github.com/aharshsingh'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={github} alt='logo' /></Link>
         </div>
     </div>
-    </div>
-    <div style={{marginTop: '280px'}}>
-        <Navbar/>
     </div>
     </div>
     </>

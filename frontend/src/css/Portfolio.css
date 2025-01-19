@@ -44,7 +44,6 @@
 .outerCardDiv{
     margin-top: 30px;
     margin-left: 420px;
-    border:#bebebe solid 1px;
     border-radius: 15px;
     width: 1100px;
     transition: transform 0.3s ease;
