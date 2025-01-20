@@ -20,6 +20,11 @@ export default function Portfolio() {
                 <h1 className='lg:text-6xl font-medium text-[#666666] text-xl'>MY</h1>
                 <h2 className='aboutme lg:text-6xl font-bold text-xl'>PORTFOLIO</h2>
             </div>
+            <div className='flex justify-center items-center mt-12'>
+                    <Link className='text-[#FFB400] text-lg mr-3 ' to='/portfolio'>Websites</Link>
+                    <p className='text-[#666666] text-lg'>|</p>
+                    <Link className='text-[#666666] text-lg ml-3 ' to='/uiuxportfolio'>Designs</Link>
+                  </div>
             <div className='flex justify-center items-center'>
             <div className='ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
                 <div>
