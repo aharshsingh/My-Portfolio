@@ -20,7 +20,7 @@ export default function Training() {
         </div>
         <div className='card'>
             <p style={{fontSize: '40px', paddingLeft: '10px', color: '#FFB400'}}>6 Week</p>
-            <p style={{marginTop: '20px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Summer Training on Fullstack Development | Programming Pathshala</p>
+            <p style={{marginTop: '0px', fontSize: '20px', paddingLeft: '10px',color: '#666666'}}>Summer Training on Fullstack Development | Programming Pathshala</p>
         </div>
       </div>
     </>

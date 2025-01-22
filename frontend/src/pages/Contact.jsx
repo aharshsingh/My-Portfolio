@@ -8,7 +8,6 @@ import linkedin from '../public/linkedin.svg'
 import github from '../public/github.svg'
 import facebook from '../public/facebook.svg'
 import instagram from '../public/instagram.svg'
-import Navbar from '../components/Navbar'
 import {Link} from 'react-router-dom'
 import NavBar from '../components/Navbar'
 export default function Contact() {
@@ -17,40 +16,38 @@ export default function Contact() {
     <div>
         <NavBar/>
     </div>
-    <div style={{display:'flex', columnGap:'398px'}}>
-        <div>
-    <div style={{display: 'flex', columnGap: '10px', marginLeft: '740px', marginTop: '50px'}}>
-        <h1 className='resume'>GET IN</h1>
-        <h2 className='aboutme'>TOUCH</h2>
+    <div className='flex justify-center items-center mt-8'>
+        <h1 className='lg:text-6xl font-medium text-[#666666] text-xl'>GET IN</h1>
+        <h2 className='aboutme lg:text-6xl font-bold text-xl'>TOUCH</h2>
     </div>
-    <div style={{display:'flex', marginTop:'200px', marginLeft: '480px'}}>
-        <div style={{marginTop: '40px'}}>
-            <h2 style={{fontSize:'30px',color: '#FFB400'}}>DON'T BE SHY!</h2>
-            <p style={{fontSize: '20px', color:'#666666'}}>Feel free to get in touch with me. I am always<br/> open to discussing new projects, creative ideas or<br/> opportunities to be part of your visions.</p>
+    <div className='flex justify-center items-center mt-32 lg:gap-16 gap-4'>
+        <div className='mt-10 hidden lg:block'>
+            <h2 className='lg:text-3xl text-[#FFB400] text-sm'>DON'T BE SHY!</h2>
+            <p className='lg:text-lg text-[#666666] text-sm'>Feel free to get in touch with me. I am always<br/> open to discussing new projects, creative ideas or<br/> opportunities to be part of your visions.</p>
         </div>
-        <div style={{borderRight: '1px solid #666666', height:'200px', marginLeft:'100px', opacity:'0.5'}}></div>
-        <div style={{marginLeft: '100px' , marginTop: '0px'}}>
-        <div style={{display: 'flex', columnGap: '20px'}}>
-            <div className='circleContainercontact'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={phone} alt='logo' />
+        <div style={{borderRight: '1px solid #666666', height:'200px', opacity:'0.3'}} className='hidden lg:block'></div>
+        <div className='flex flex-col gap-5'>
+        <div className='flex flex-row gap-5'>
+            <div className='rounded-full bg-[#FFB400] h-10 w-10 relative'>
+            <img className='absolute left-2.5 top-3 w-5 h-5' src={phone} alt='logo' />
             </div>
-            <p style={{fontSize:'20px', color:'#666666'}}>Phone: <br/>+91-8005198273</p>
+            <p className='text-[#666666] lg:text-lg'>Phone: <br/>+91-8005198273</p>
         </div>
-        <div style={{display: 'flex', columnGap: '20px', marginTop:'20px'}}>
-            <div className='circleContainercontact'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={email} alt='logo' />
+        <div className='flex flex-row gap-5'>
+            <div className='rounded-full bg-[#FFB400] h-10 w-10 relative'>
+            <img className='absolute left-2.5 top-3 w-5 h-5' src={email} alt='logo' />
             </div>
-            <p style={{fontSize:'20px', color:'#666666'}}>Email: <br/>aharshsingh25@gmail.com</p>
+            <p className='text-[#666666] lg:text-lg'>Email: <br/>aharshsingh25@gmail.com</p>
         </div>
-        <div style={{display: 'flex', columnGap: '20px', marginTop:'20px'}}>
-            <div className='circleContainercontact'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={address} alt='logo' />
+        <div className='flex flex-row gap-5'>
+            <div className='rounded-full bg-[#FFB400] h-10 w-10 relative'>
+            <img className='absolute left-2.5 top-3 w-5 h-5' src={address} alt='logo' />
             </div>
-            <p style={{fontSize:'20px', color:'#666666'}}>Address: <br/>Ayodhya, Uttar Pradesh, India</p>
+            <p className='text-[#666666] lg:text-lg'>Address: <br/>Ayodhya, Uttar Pradesh, India</p>
         </div>
         </div>
     </div>
-    <div style={{display:'flex', columnGap:'20px', marginTop: '50px', marginLeft:'850px'}}>
+    <div className='flex flex-row gap-4 justify-center items-center mt-10'>
         <div className='circleContainercontact1'>
             <Link to='https://www.facebook.com/profile.php?id=100006964755099&mibextid=ZbWKwL'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={facebook} alt='logo' /></Link>
         </div>
@@ -66,8 +63,6 @@ export default function Contact() {
         <div className='circleContainercontact1'>
             <Link to='https://github.com/aharshsingh'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={github} alt='logo' /></Link>
         </div>
-    </div>
-    </div>
     </div>
     </>
   )

@@ -26,6 +26,7 @@ export default function NavDrawer() {
   const options = [
     { text: 'Home', path: '/' }, 
     { text: 'Portfolio', path: '/portfolio'},
+    { text: 'Desgins', path: '/uiuxPortfolio'},
     { text: 'Blogs', path: 'https://techweekle.blogspot.com/?'}
   ];
 

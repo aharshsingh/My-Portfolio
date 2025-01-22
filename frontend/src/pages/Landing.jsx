@@ -44,7 +44,7 @@ export default function Landing() {
               those around me.</p>
               </div>
         </div>
-        <div className='lg:mt-96 lg:mr-14 mt-28 ml-28'>
+        <div className='lg:mt-96 lg:mr-40 mt-28 ml-28'>
           <Link to='/Portfolio'><button className='rounded-full bg-[#FFB400] lg:bg-white text-white w-[200px] border-[#FFB400] border-[1px] p-3 lg:text-[#666666] font-semibold text-lg hover:bg-[#FFB400] hover:text-white transition-colors duration-300 ease-in-out flex justify-around '>Projects<span><img className='w-14 h-8' src={rightArrow} alt='arrow' /></span></button></Link>
         </div>
       </div>

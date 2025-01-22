@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import {Link} from 'react-router-dom';
-import ui1 from '../public/faizur-rehman-uo7UYGyxcaQ-unsplash.jpg'
-import ui2 from '../public/roberto-cortese-F1I4IN86NiE-unsplash.jpg'
+import ui1 from '../public/stephen-phillips-hostreviews-co-uk-em37kS8WJJQ-unsplash.jpg'
+import ui2 from '../public/the-aw-creative-digital-marketing-vj-_S20w04o-unsplash.jpg'
 import ui3 from '../public/shoper-pPbz6dFruuo-unsplash.jpg'
 import ui4 from '../public/clay-banks-E2HgkL3LaFE-unsplash.jpg'
-import ui5 from '../public/Screenshot 2025-01-21 005245.png'
+import ui5 from '../public/alexander-andrews-A3DPhhAL6Zg-unsplash.jpg'
 import ui6 from '../public/taras-shypka-iFSvn82XfGo-unsplash.jpg'
 export default function UIUXPortfolio() {
   return (
@@ -23,14 +23,14 @@ export default function UIUXPortfolio() {
         <Link className='text-[#FFB400] text-lg ml-3 ' to='/uiuxportfolio'>Designs</Link>
       </div>
       <div className='mt-16 flex justify-center items-center'>
-        <Link to='https://www.figma.com/design/Ak2BO5S6EqfaPdewbjWVvk/FashionEthnic-Project?node-id=0-1&p=f&t=Rw958E7rTilahtQm-0'><div className='relative overflow-hidden group lg:w-[250px] lg:h-[600px] mt-1 mr-1'>
+        <Link to='https://www.figma.com/design/Ak2BO5S6EqfaPdewbjWVvk/FashionEthnic-Project?node-id=0-1&p=f&t=Rw958E7rTilahtQm-0'><div className='relative overflow-hidden group lg:w-[250px] lg:h-[600px] mt-1 mr-1 w-[100px] h-[190px]'>
           <img className='w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110' src={ui2} alt='ui2' />
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <p className="text-white font-semibold text-sm lg:text-lg">Fashion Ethnic</p>
     </div>
         </div></Link>
         <div to='https://www.figma.com/design/APbbCzvCv8jiitDFAwrOh7/vegapayCreditCardAssignment?t=Rw958E7rTilahtQm-0'>
-        <Link><div className='lg:w-[250px] lg:h-[350px mt-1 relative overflow-hidden group'>
+        <Link><div className='lg:w-[250px] lg:h-[350px] h-[135px] mt-1 relative overflow-hidden group'>
         <img className='w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110' src={ui1} alt='ui1' />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <p className="text-white font-semibold text-sm lg:text-lg">CreditCards</p>
@@ -38,7 +38,7 @@ export default function UIUXPortfolio() {
         </div>
         </Link>
         <Link to='https://www.figma.com/design/puiPsKIkKf4xgrxrRqRDS0/Vegapay-Credit-Line?node-id=0-1&p=f&t=Rw958E7rTilahtQm-0'>
-        <div className='lg:w-[250px] lg:h-[246px]  mt-1 relative overflow-hidden group'>
+        <div className='lg:w-[250px] lg:h-[246px] h-[100px] mt-1 relative overflow-hidden group'>
         <img className='w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110' src={ui4} alt='ui4' />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <p className="text-white font-semibold text-sm lg:text-lg">Credit Line</p>
@@ -49,7 +49,7 @@ export default function UIUXPortfolio() {
         <div>
         <div className='flex'>
         <Link to='https://www.figma.com/design/4hRr92cijxg3S4VG22FYGB/TaskManager?t=Rw958E7rTilahtQm-0'>
-        <div className='lg:w-[400px] lg:h-[350px]  mt-1 ml-1 relative overflow-hidden group'>
+        <div className='lg:w-[400px] lg:h-[350px] mt-1 ml-1 relative overflow-hidden group'>
         <img className='w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110' src={ui3} alt='ui3' />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <p className="text-white font-semibold text-sm lg:text-lg">ManageIt</p>
@@ -66,7 +66,7 @@ export default function UIUXPortfolio() {
         </Link>
         </div>
         <Link to='https://www.figma.com/design/Y89nmZUt9MeeocFASbzxsk/CA4_noBrokers?t=Rw958E7rTilahtQm-0'>
-        <div className='lg:w-[700px] lg:h-[246px]  mt-1 ml-1 relative overflow-hidden group'>
+        <div className='h-[100px] lg:w-[700px] lg:h-[246px]  mt-1 ml-1 relative overflow-hidden group'>
         <img className='w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110' src={ui5} alt='ui5' />
         <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
       <p className="text-white font-semibold text-sm lg:text-lg">No Broker</p>
