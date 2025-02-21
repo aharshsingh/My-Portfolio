@@ -8,6 +8,7 @@ import exam from '../public/Screenshot 2024-12-30 133515.png';
 import crypto from '../public/1675801227-cryptowallet.jpg'
 import ims from '../public/11Screenshot 2024-12-31 095542.png'
 import NavBar from '../components/Navbar';
+import Calulator from '../public/Screenshot 2025-02-21 134727.png'
 
 export default function Portfolio() {
   return (
@@ -33,7 +34,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Fashion Ethnic</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://fashionethnic.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://fashion-ethnic.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
@@ -45,7 +46,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>ManageIt</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://taskmanagerapps.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://manageit-nine.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
@@ -82,6 +83,18 @@ export default function Portfolio() {
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>CryptoTicker</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
                     <Link style={{textDecoration:'none'}} to='https://cryptoticker.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                </div>
+            </div>
+            </div>
+            <div className='flex justify-center items-center'>
+            <div className='ml-3 mr-3 mb-6 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
+                <div>
+                    <img className='cardImage' src={Calulator} alt='calculator' />
+                </div>
+                <div>
+                    <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Calculator</h1>
+                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>This feature-rich scientific calculator supports basic arithmetic operations like addition, subtraction, multiplication, division, percentages, square roots, and exponentiation. It includes scientific functions such as trigonometry, inverse trigonometry, logarithms, exponentials, and power functions, with a toggle for radians and degrees. Memory operations allow adding, subtracting, recalling, and clearing values. A dark/light mode switch enhances usability, persisting preferences across sessions. Designed for responsiveness, it works seamlessly on mobile, tablet, and desktop devices.</p>
+                    <Link style={{textDecoration:'none'}} to='https://scientificcalulator.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
