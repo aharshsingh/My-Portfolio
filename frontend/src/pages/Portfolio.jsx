@@ -34,7 +34,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Fashion Ethnic</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://fashion-ethnic.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://fashion-ethnic.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
@@ -46,7 +46,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>ManageIt</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://manageit-nine.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://manageit-nine.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
@@ -58,7 +58,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Examlynk</h1>
                     <p  className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://examlynk.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://examlynk.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span><p style={{color:'#FFB400', fontWeight:'100', fontSize:'15px', marginTop:'3px', marginLeft:'3px'}}>(Desktop only)</p></p></Link>
                 </div>
             </div>
             </div>
@@ -70,7 +70,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>TensightIMS</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://tensight.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://tensight.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
@@ -82,7 +82,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>CryptoTicker</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://cryptoticker.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://cryptoticker.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
@@ -94,7 +94,7 @@ export default function Portfolio() {
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Calculator</h1>
                     <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>This feature-rich scientific calculator supports basic arithmetic operations like addition, subtraction, multiplication, division, percentages, square roots, and exponentiation. It includes scientific functions such as trigonometry, inverse trigonometry, logarithms, exponentials, and power functions, with a toggle for radians and degrees. Memory operations allow adding, subtracting, recalling, and clearing values. A dark/light mode switch enhances usability, persisting preferences across sessions. Designed for responsiveness, it works seamlessly on mobile, tablet, and desktop devices.</p>
-                    <Link style={{textDecoration:'none'}} to='https://scientificcalulator.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px'}} src={arrow} alt='arrow' /></span></p></Link>
+                    <Link style={{textDecoration:'none'}} to='https://scientificcalulator.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
             </div>
