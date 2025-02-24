@@ -27,6 +27,7 @@ export default function NavDrawer() {
     { text: 'Home', path: '/' }, 
     { text: 'Portfolio', path: '/portfolio'},
     { text: 'Desgins', path: '/uiuxPortfolio'},
+    { text: 'About', path: '/about'},
     { text: 'Blogs', path: 'https://techweekle.blogspot.com/?'}
   ];
 

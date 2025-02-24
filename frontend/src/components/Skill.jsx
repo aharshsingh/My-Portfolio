@@ -5,92 +5,97 @@ import html from '../public/html.png';
 import css from '../public/css.png'
 import mongodb from '../public/mongodb.png'
 import react from '../public/react.png'
-import wordpress from '../public/download__5_-removebg-preview.png'
 import figma from '../public/download__4_-removebg-preview.png'
-import angular from '../public/download__2_-removebg-preview.png'
 import github from '../public/25231.png'
-import render from '../public/render.png'      
-import redux from '../public/redux.png'
 import postman from '../public/postman.png'
 import nodejs from '../public/nodejs.png'
 import nextjs from '../public/nextjs.png'
 import netlify from '../public/netlify.png'
 import mysql from '../public/mysql.png'
 import express from '../public/express.png'
-import '../css/Skill.css';
+import websocket from '../public/download (2).png'
+import redis from '../public/download.jpg'
 
 export default function Skill() {
   return (
     <>
-      <h3 style={{color:'#666666',marginLeft: '300px',marginTop:'100px'}}>PROGRAMMING LANGUAGE:</h3>
-      <div className='skillcontainer'>
-        <div>
-          <img className='skillImage' src={cpp} alt='logo' />
-          <p style={{marginLeft:"525px", marginTop:"10px"}}>CPP</p>
-        </div>
-        <div>
-        <img style={{marginLeft: '100px'}} className='skillImage' src={js} alt='logo' />
-        <p style={{marginLeft:"105px", marginTop:"10px"}}>JavaScript</p>
+    <div className='flex justify-center items-center lg:mt-[100px] mt-[50px]'>
+      <h3 className='text-[#666666]'>PROGRAMMING LANGUAGE</h3>
+    </div>
+      <div className='flex justify-center items-center gap-14'>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={cpp} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">CPP</p>
+        </div> 
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={js} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">JavaScript</p>
         </div>
       </div>
-      <h3 style={{color:'#666666',marginLeft: '300px',marginTop:'100px'}}>WEB APPLICATIONS:</h3>
-      <div className='skillcontainer'>
-        <div>
-          <img className='skillImage' src={html} alt='logo' />
-          <p style={{marginLeft:"515px", marginTop:"10px"}}>HTML5</p>
+      <div className='flex justify-center items-center mt-[50px]'>
+        <h3 className='text-[#666666]'>WEB APPLICATIONS</h3>
+      </div>
+      <div className='flex justify-center items-center gap-12 flex-wrap'>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={html} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">HTML5</p>
         </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={css} alt='logo' />
-          <p style={{marginLeft:"120px", marginTop:"10px"}}>CSS3</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={css} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">CSS3</p>
         </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={express} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Express</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={express} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Express</p>
         </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={react} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>React JS</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={react} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">React JS</p>
         </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={nodejs} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Node JS</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={nextjs} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Next JS</p>
         </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={redux} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Redux</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={nodejs} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Node JS</p>
+        </div>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={mysql} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">MySQL</p>
+        </div>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={mongodb} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">MongoDB</p>
+        </div>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={websocket} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">WebSocket</p>
+        </div>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={redis} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Redis</p>
         </div>
         </div>
-        <div id='skillcont' >
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={mysql} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>MySQL</p>
+      <div className='flex justify-center items-center mt-[50px]'>
+        <h3 className='text-[#666666]'>OTHER TECHNOLOGY</h3>
+      </div>
+      <div className='flex justify-center items-center gap-12'>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={github} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Github</p>
         </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={mongodb} alt='logo' />
-          <p style={{marginLeft:"105px", marginTop:"10px"}}>MongoDB</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={postman} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Postman</p>
         </div>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={netlify} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Netlify</p>
         </div>
-      <h3 style={{color:'#666666',marginLeft: '300px',marginTop:'100px'}}>OTHER TECHNOLOGY:</h3>
-      <div className='skillcontainer'>
-        <div>
-          <img className='skillImage' src={github} alt='logo' />
-          <p style={{marginLeft:"515px", marginTop:"10px"}}>Github</p>
-        </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={postman} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Postman</p>
-        </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={netlify} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Netlify</p>
-        </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={render} alt='logo' />
-          <p style={{marginLeft:"105px", marginTop:"10px"}}>Render</p>
-        </div>
-        <div>
-          <img style={{marginLeft: '100px'}} className='skillImage' src={figma} alt='logo' />
-          <p style={{marginLeft:"115px", marginTop:"10px"}}>Figma</p>
+        <div className="group inline-block">
+          <img className='lg:h-[80px] lg:w-[80px] mt-[50px] h-14 w-14 hover:transition-transform hover:scale-125 ease-in-out duration-500' src={figma} alt='logo' />
+          <p className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-5 text-[#666666] text-sm lg:text-base">Figma</p>
         </div>
       </div>
     </>

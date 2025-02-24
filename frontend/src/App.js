@@ -1,24 +1,42 @@
+import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Landing from "./pages/Landing";
-import About from './pages/About'
-import Contact from './pages/Contact'
+import About from './pages/About';
+import Contact from './pages/Contact';
 import Portfolio from "./pages/Portfolio";
-
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import UIUXPortfolio from "./pages/UIUXPortfolio";
+
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    // Refresh AOS on route change
+    AOS.refresh();
+  }, [location]);
+
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" Component={Landing}></Route>
-          <Route path="/Portfolio" Component={Portfolio}></Route>
-          <Route path="/About" Component={About}></Route>
-          <Route path="/Contact" Component={Contact}></Route>
-          <Route path="/uiuxPortfolio" Component={UIUXPortfolio}></Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/uiuxPortfolio" element={<UIUXPortfolio />} />
+      </Routes>
     </div>
   );
 }
 
-export default App;
+export default function WrappedApp() {
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+}

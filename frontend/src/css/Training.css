@@ -1,9 +1,5 @@
 .card{
     margin: 10px;
-    border: solid 1px #d6d6d6;
-    border-radius: 10px;
-    width: 300px;
-    height: 150px;
 }
 .card:hover{
     transform: scale(1.05);

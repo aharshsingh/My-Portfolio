@@ -28,14 +28,14 @@ export default function NavBar() {
                 Portfolio
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 to="/about"
                 className="block py-2 px-3 text-gray-900 rounded hover:text-[#FFB400] md:bg-transparent md:border-0 md:p-0"
               >
                 About
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link
                 to="/contact"

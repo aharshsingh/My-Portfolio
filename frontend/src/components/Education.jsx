@@ -4,116 +4,116 @@ import '../css/Education.css'
 export default function Education() {
   return (
     <>
-    <div style={{display:'flex', columnGap:'0px'}}>
-    <div style={{display:'flex', columnGap:'50px'}}>
+    <div className='flex justify-center items-center gap-[400px]'>
+    <div className='flex gap-5 lg:w-[350px]'>
         <div>
-            <div className='circleContainer'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={degree} alt='logo' />
-        </div>
-        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'375px'}}></div>
-        </div>
-        <div style={{marginTop:'110px'}}>
-            <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2021-Present</p>
+            <div className='rounded-full bg-[#FFB400] lg:h-12 lg:w-12 relative'>
+            <img className='h-[25px] w-[25px] absolute left-[11px] top-[10px]' src={degree} alt='logo' />
             </div>
-            <div style={{marginTop: '30px'}}>
-            <p>BACHELOR IN COMPUTER SCIENCE & ENGINEERING</p>
-            <p style={{marginTop: '10px'}}>Lovely Professional University</p>
-            <p style={{marginTop: '10px'}}>CGPA: 7.48</p>
-            </div>
+            <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'22px'}}></div>
         </div>
-    </div>
-    <div style={{display:'flex', columnGap:'50px'}}>
         <div>
-            <div className='circleContainer'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={degree} alt='logo' />
-        </div>
-        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'375px'}}></div>
-        </div>
-        <div style={{marginTop:'110px'}}>
-            <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>2019-2020</p>
+            <div className='dateContainer mt-3'>
+                <p style={{position:'absolute', fontSize:'15px', top:'3px', left:'20px' }}>2021-Present</p>
             </div>
-            <div style={{marginTop: '30px'}}>
-            <p>HIGH SCHOOL</p>
-            <p style={{marginTop: '10px'}}>Army Public School</p>
-            <p style={{marginTop: '10px'}}>Percentage: 90.2%</p>
+            <div style={{marginTop: '20px'}}>
+            <p className='lg:text-base'>BACHELOR IN COMPUTER SCIENCE & ENGINEERING</p>
+            <p className='lg:text-sm'>Lovely Professional University</p>
+            <p className='lg:text-sm'>CGPA: 7.48</p>
             </div>
         </div>
     </div>
-    </div>
-    <div style={{display:'flex', columnGap:'210px'}}>
-    <div style={{display:'flex', columnGap:'50px'}}>
+    <div className='flex gap-5 lg:w-[280px]'>
         <div>
-            <div className='circleContainer'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={degree} alt='logo' />
+            <div className='rounded-full bg-[#FFB400] lg:h-12 lg:w-12 relative'>
+            <img className='h-[25px] w-[25px] absolute left-[11px] top-[10px]' src={degree} alt='logo' />
         </div>
-        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'375px'}}></div>
+        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'22px'}}></div>
         </div>
-        <div style={{marginTop:'110px'}}>
-            <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>July 2022</p>
-            </div>
-            <div style={{marginTop: '30px'}}>
-            <p>SUMMER TRAINING</p>
-            <p style={{marginTop: '10px'}}>Front End Web Development</p>
-            <p style={{marginTop: '10px'}}>Programming Pathshala</p>
-            </div>
-        </div>
-    </div>
-    <div style={{display:'flex', columnGap:'50px'}}>
         <div>
-            <div className='circleContainer'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={degree} alt='logo' />
-        </div>
-        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'375px'}}></div>
-        </div>
-        <div style={{marginTop:'110px'}}>
-            <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>Nov 2023</p>
+            <div className='dateContainer mt-3'>
+                <p style={{position:'absolute', fontSize:'15px', top:'3px', left:'28px' }}>2019-2020</p>
             </div>
-            <div style={{marginTop: '30px'}}>
-            <p>BACKEND SPECIALIZATION</p>
-            <p style={{marginTop: '10px'}}>Server side JavaScript with Node.js</p>
-            <p style={{marginTop: '10px'}}>Coursera</p>
+            <div style={{marginTop: '20px'}}>
+            <p className='lg:text-base'>HIGH SCHOOL</p>
+            <p className='lg:text-sm'>Army Public School</p>
+            <p className='lg:text-sm'>Percentage: 90.2%</p>
             </div>
         </div>
     </div>
     </div>
-    <div style={{display:'flex', columnGap:'180px'}}>
-    <div style={{display:'flex', columnGap:'50px'}}>
+    <div className='flex justify-center items-center gap-[400px] mt-16'>
+    <div className='flex gap-5 lg:w-[350px]'>
         <div>
-            <div className='circleContainer'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={degree} alt='logo' />
+            <div className='rounded-full bg-[#FFB400] lg:h-12 lg:w-12 relative'>
+            <img className='h-[25px] w-[25px] absolute left-[11px] top-[10px]' src={degree} alt='logo' />
         </div>
-        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'375px'}}></div>
+        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'22px'}}></div>
         </div>
-        <div style={{marginTop:'110px'}}>
-            <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>Nov 2023</p>
+        <div>
+            <div className='dateContainer mt-3'>
+                <p style={{position:'absolute', fontSize:'15px', top:'3px', left:'30px' }}>July 2022</p>
             </div>
-            <div style={{marginTop: '30px'}}>
-            <p>FRONTEND SPECIALIZATION</p>
-            <p style={{marginTop: '10px'}}>Basic React</p>
-            <p style={{marginTop: '10px'}}>Coursera</p>
+            <div style={{marginTop: '20px'}}>
+            <p className='lg:text-base'>SUMMER TRAINING</p>
+            <p className='lg:text-sm'>Front End Web Development</p>
+            <p className='lg:text-sm'>Programming Pathshala</p>
             </div>
         </div>
     </div>
-    <div style={{display:'flex', columnGap:'50px'}}>
+    <div className='flex gap-5 lg:w-[280px] '>
         <div>
-            <div className='circleContainer'>
-            <img style={{height:'30px', width:'30px', position:'absolute', left:'10px', top:'10px'}} src={degree} alt='logo' />
+            <div className='rounded-full bg-[#FFB400] lg:h-12 lg:w-12 relative'>
+            <img className='h-[25px] w-[25px] absolute left-[11px] top-[10px]' src={degree} alt='logo' />
         </div>
-        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'375px'}}></div>
+        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'22px'}}></div>
         </div>
-        <div style={{marginTop:'110px'}}>
-            <div className='dateContainer'>
-                <p style={{position:'absolute', fontSize:'18px', top:'3px', left:'17px' }}>Dec 2023</p>
+        <div>
+            <div className='dateContainer mt-3'>
+                <p style={{position:'absolute', fontSize:'15px', top:'3px', left:'29px' }}>Nov 2023</p>
             </div>
-            <div style={{marginTop: '30px'}}>
-            <p>FRONTEND SPECIALIZATION</p>
-            <p style={{marginTop: '10px'}}>Advanced React</p>
-            <p style={{marginTop: '10px'}}>Coursera</p>
+            <div style={{marginTop: '20px'}}>
+            <p className='lg:text-base'>BACKEND SPECIALIZATION</p>
+            <p className='lg:text-sm'>Server side JavaScript with Node.js</p>
+            <p className='lg:text-sm'>Coursera</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div className='flex justify-center items-center gap-[400px] mt-16'>
+    <div className='flex gap-5 lg:w-[350px]'>
+        <div>
+            <div className='rounded-full bg-[#FFB400] lg:h-12 lg:w-12 relative'>
+            <img className='h-[25px] w-[25px] absolute left-[11px] top-[10px]' src={degree} alt='logo' />
+        </div>
+        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'22px'}}></div>
+        </div>
+        <div >
+            <div className='dateContainer mt-3'>
+                <p style={{position:'absolute', fontSize:'15px', top:'3px', left:'29px' }}>Nov 2023</p>
+            </div>
+            <div style={{marginTop: '20px'}}>
+            <p className='lg:text-base'>FRONTEND SPECIALIZATION</p>
+            <p className='lg:text-sm'>Basic React</p>
+            <p className='lg:text-sm'>Coursera</p>
+            </div>
+        </div>
+    </div>
+    <div className='flex gap-5 lg:w-[280px]'>
+        <div>
+            <div className='rounded-full bg-[#FFB400] lg:h-12 lg:w-12 relative'>
+            <img className='h-[25px] w-[25px] absolute left-[11px] top-[10px]' src={degree} alt='logo' />
+        </div>
+        <div style={{borderLeft: '1px solid #666666', height:'100px', marginLeft:'22px'}}></div>
+        </div>
+        <div>
+            <div className='dateContainer mt-3'>
+                <p style={{position:'absolute', fontSize:'15px', top:'3px', left:'34px' }}>Dec 2023</p>
+            </div>
+            <div style={{marginTop: '20px'}}>
+            <p className='lg:text-base'>FRONTEND SPECIALIZATION</p>
+            <p className='lg:text-sm'>Advanced React</p>
+            <p className='lg:text-sm'>Coursera</p>
             </div>
         </div>
     </div>
