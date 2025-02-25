@@ -22,26 +22,33 @@ export default function Portfolio() {
                 <h2 className='aboutme lg:text-6xl font-bold text-xl'>PORTFOLIO</h2>
             </div>
             <div className='flex justify-center items-center mt-12'>
-                    <Link className='text-[#FFB400] text-lg mr-3 ' to='/portfolio'>Websites</Link>
-                    <p className='text-[#666666] text-lg'>|</p>
-                    <Link className='text-[#666666] text-lg ml-3 ' to='/uiuxportfolio'>Designs</Link>
-                  </div>
-            <div className='flex justify-center items-center'>
-            <div className='ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
-                <div>
-                    <img className='cardImage' src={fashion} alt='fashionEthnic' />
-                </div>
-                <div>
-                    <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Fashion Ethnic</h1>
-                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
-                    <Link style={{textDecoration:'none'}} to='https://fashion-ethnic.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
+                <Link className='text-[#FFB400] text-lg mr-3 ' to='/portfolio'>Websites</Link>
+                <p className='text-[#666666] text-lg'>|</p>
+                <Link className='text-[#666666] text-lg ml-3 ' to='/uiuxportfolio'>Designs</Link>
+            </div>
+            <div className="flex justify-center items-center">
+                <div className="ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out">
+                    <div className="relative group overflow-hidden">
+                        <img className="cardImage transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:brightness-75" src={fashion} alt="fashionEthnic"/>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                            <span className="text-white text-2xl font-semibold opacity-0 transition-opacity duration-300 group-hover:opacity-100">Fashion Ethnic</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 className="pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]">Fashion Ethnic</h1>
+                        <p className="p-[20px] text-[#666666] lg:text-lg text-sm">Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                        <Link style={{ textDecoration: 'none' }} to="https://fashion-ethnic.vercel.app/">
+                        <p style={{padding: '15px',color: '#FFB400',fontSize: '18px',fontWeight: '1000',display: 'flex'}}>View Project<span><img style={{marginLeft: '10px',width: '18px',height: '18px',marginTop: '5px' }} src={arrow} alt="arrow"/></span></p></Link>
+                    </div>
                 </div>
             </div>
-            </div>
             <div className='flex justify-center items-center'>
-            <div className=' ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
-                <div>
-                    <img className='cardImage' src={task} alt='ManageIt' />
+            <div className=' ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out'>
+                <div className="relative group overflow-hidden">
+                    <img className='cardImage transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:brightness-75' src={task} alt='ManageIt' />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-white text-2xl font-semibold opacity-0 transition-opacity duration-300 group-hover:opacity-100">ManageIt</span>
+                    </div>
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>ManageIt</h1>
@@ -51,9 +58,12 @@ export default function Portfolio() {
             </div>
             </div>
             <div className='flex justify-center items-center'>
-            <div className='ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
-                <div>
-                    <img className='cardImage' src={exam} alt='examlynk' />
+            <div className='ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out'>
+                <div className="relative group overflow-hidden">
+                    <img className='cardImage transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:brightness-75' src={exam} alt='examlynk' />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-white text-2xl font-semibold opacity-0 transition-opacity duration-300 group-hover:opacity-100">Examlynk</span>
+                    </div>
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Examlynk</h1>
@@ -63,9 +73,12 @@ export default function Portfolio() {
             </div>
             </div>
             <div className='flex justify-center items-center'>
-            <div className='ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
-                <div>
-                    <img className='cardImage' src={ims} alt='tensightIMS' />
+            <div className='ml-3 mr-3 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out '>
+                <div className="relative group overflow-hidden">
+                    <img className='cardImage transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:brightness-75' src={ims} alt='tensightIMS' />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-white text-2xl font-semibold opacity-0 transition-opacity duration-300 group-hover:opacity-100">TensightIMS</span>
+                    </div>
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>TensightIMS</h1>
@@ -75,9 +88,12 @@ export default function Portfolio() {
             </div>
             </div>
             <div className='flex justify-center items-center'>
-            <div className='ml-3 mr-3 mb-6 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
-                <div>
-                    <img className='cardImage' src={crypto} alt='cryptoticker' />
+            <div className='ml-3 mr-3 mb-6 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out '>
+                <div className="relative group overflow-hidden">
+                    <img className='cardImage transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:brightness-75' src={crypto} alt='cryptoticker' />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-white text-2xl font-semibold opacity-0 transition-opacity duration-300 group-hover:opacity-100">CryptoTicker</span>
+                    </div>
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>CryptoTicker</h1>
@@ -87,9 +103,12 @@ export default function Portfolio() {
             </div>
             </div>
             <div className='flex justify-center items-center'>
-            <div className='ml-3 mr-3 mb-6 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_4px_12px_rgba(0,0,0,0.3)]'>
-                <div>
-                    <img className='cardImage' src={Calulator} alt='calculator' />
+            <div className='ml-3 mr-3 mb-6 mt-20 lg:w-[1100px] rounded-2xl border border-[#dadada] transition-all duration-300 ease-in-out '>
+                <div className="relative group overflow-hidden">
+                    <img className='cardImage transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:brightness-75' src={Calulator} alt='calculator' />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <span className="text-white text-2xl font-semibold opacity-0 transition-opacity duration-300 group-hover:opacity-100">Calculator</span>
+                    </div>
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Calculator</h1>
