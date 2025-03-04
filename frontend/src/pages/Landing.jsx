@@ -59,7 +59,7 @@ export default function Landing() {
               </div>
         </div>
         </div>
-        <div className='flex flex-row gap-4 justify-center items-center mt-10'>
+        <div className='flex flex-row gap-4 justify-center items-center mt-10 lg:hidden block'>
                 {/* <div className='circleContainercontact1'>
                     <Link to='https://www.facebook.com/profile.php?id=100006964755099&mibextid=ZbWKwL'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={facebook} alt='logo' /></Link>
                 </div> */}
