@@ -20,7 +20,7 @@ Welcome to my personal portfolio repository! This project showcases my professio
 
 The project is deployed on Netlify. You can view it at the following link:
 
-[My Portfolio](https://portfolioaharshsingh.netlify.app/)
+[My Portfolio](https://portfolioaharshsingh.vercel.app/)
 
 ## Installation and Setup
 
