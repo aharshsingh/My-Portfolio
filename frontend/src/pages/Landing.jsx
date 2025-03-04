@@ -6,6 +6,11 @@ import Navbar from '../components/Navbar';
 import Typewriter from 'typewriter-effect';
 import homeImage from '../public/Untitled (9).png';
 import me from '../public/WhatsApp_Image_2024-05-09_at_22.45.39_fda983ee-Photoroom.png-Photoroom-removebg-preview.png'
+import twitter from '../public/twitter.svg'
+import linkedin from '../public/linkedin.svg'       
+import github from '../public/github.svg'
+// import facebook from '../public/facebook.svg'
+import instagram from '../public/instagram.svg'
 export default function Landing() {
   return (
     <>
@@ -54,6 +59,23 @@ export default function Landing() {
               </div>
         </div>
         </div>
+        <div className='flex flex-row gap-4 justify-center items-center mt-10'>
+                {/* <div className='circleContainercontact1'>
+                    <Link to='https://www.facebook.com/profile.php?id=100006964755099&mibextid=ZbWKwL'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={facebook} alt='logo' /></Link>
+                </div> */}
+                <div className='circleContainercontact1'>
+                    <Link to='https://www.instagram.com/aharsh_singh?utm_source=qr&igsh=MTI2YXcxaHZocTJ1eg=='><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={instagram} alt='logo' /></Link>
+                </div>
+                <div className='circleContainercontact1'>
+                    <Link to='https://x.com/AharshSingh?t=2jJeEqWK596sph6mm6eF3Q&s=08'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={twitter} alt='logo' /></Link>
+                </div>
+                <div className='circleContainercontact1'>
+                    <Link to='https://www.linkedin.com/in/aharsh-singh-17917022a/'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={linkedin} alt='logo' /></Link>
+                </div>
+                <div className='circleContainercontact1'>
+                    <Link to='https://github.com/aharshsingh'><img style={{height:'20px', width:'20px', position:'absolute', left:'10px', top:'10px'}} src={github} alt='logo' /></Link>
+                </div>
+            </div>
         <div className=' lg:mr-40 lg:mt-28 mt-10 flex justify-center items-center'>
           <Link to='/Portfolio'><button className='rounded-full bg-[#FFB400] lg:bg-white text-white lg:w-[200px] w-[150px] border-[#FFB400] border-[1px] lg:p-3 p-2  lg:text-[#666666] font-semibold text-lg hover:bg-[#FFB400] hover:text-white transition-colors duration-300 ease-in-out flex justify-around lg:pl-0 pl-4'>Projects<span><img className='lg:w-14 w-12 lg:h-8 h-5 lg:mt-0 mt-1' src={rightArrow} alt='arrow' /></span></button></Link>
         </div>

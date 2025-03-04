@@ -52,7 +52,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>ManageIt</h1>
-                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>ManageIt is a MERN stack task management app where users can add, edit, complete, and delete tasks. It features JWT authentication for secure access and allows users to set reminders, sending email notifications automatically. Built with React.js, Node.js, Express.js, and MongoDB, it ensures seamless task management and enhances productivity with an intuitive interface and automated reminders.</p>
                     <Link style={{textDecoration:'none'}} to='https://manageit-nine.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
@@ -67,7 +67,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>Examlynk</h1>
-                    <p  className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <p  className='p-[20px] text-[#666666] lg:text-lg text-sm'>ExamLynk is a MERN stack online test platform that provides a seamless exam experience. It features JWT-based authentication for secure sessions and a cron job that analyzes submissions every hour, automatically sending results via email. With a modern and intuitive UI, ExamLynk ensures a smooth testing environment for users, making online assessments efficient and user-friendly.</p>
                     <Link style={{textDecoration:'none'}} to='https://examlynk.vercel.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span><p style={{color:'#FFB400', fontWeight:'100', fontSize:'15px', marginTop:'3px', marginLeft:'3px'}}>(Desktop only)</p></p></Link>
                 </div>
             </div>
@@ -82,7 +82,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>TensightIMS</h1>
-                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Tensight IMS is an Inventory Management System that helps admins efficiently track and manage stock. Admins can add categories, products, and stock, and monitor inventory levels. The dashboard provides a graphical view of stock status and highlights products at risk of running out. With an intuitive interface and real-time tracking, Tensight IMS ensures effective inventory control and prevents stock shortages.</p>
                     <Link style={{textDecoration:'none'}} to='https://tensight.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
@@ -97,7 +97,7 @@ export default function Portfolio() {
                 </div>
                 <div>
                     <h1 className='pt-[15px] pr-[15px] pb-[0px] pl-[18px] text-[#FFB400]'>CryptoTicker</h1>
-                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>Fashion Ethnic is an innovative platform dedicated to showcasing the charm of traditional ethnic wear. It combines cultural elegance with modern technology, offering a seamless shopping experience. Key features include a personalized cart for easy checkout, a wishlist to save favorites, AI-driven suggestions to recommend outfits based on preferences, and a powerful search functionality to quickly find desired items. With a user-friendly design and a diverse collection, Fashion Ethnic ensures a delightful journey through the world of timeless ethnic fashion.</p>
+                    <p className='p-[20px] text-[#666666] lg:text-lg text-sm'>CryptoTicker is a crypto stock and market analysis platform that provides real-time insights. It features a dashboard where users can track market trends, analyze crypto stocks, and make informed decisions. With a clean and interactive UI, it offers a seamless experience for monitoring prices, charts, and market movements. CryptoTicker simplifies crypto analysis, helping users stay updated on market fluctuations effortlessly.</p>
                     <Link style={{textDecoration:'none'}} to='https://cryptoticker.netlify.app/'><p style={{padding:'15px', color:'#FFB400', fontSize:'18px', fontWeight:'1000', display:'flex'}}>View Project<span><img style={{marginLeft:'10px', width:'18px', height:'18px', marginTop:'5px'}} src={arrow} alt='arrow' /></span></p></Link>
                 </div>
             </div>
