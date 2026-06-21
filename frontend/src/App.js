@@ -1,42 +1,18 @@
-import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Landing from "./pages/Landing";
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from "./pages/Portfolio";
-import UIUXPortfolio from "./pages/UIUXPortfolio";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
-  const location = useLocation();
-
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
-  useEffect(() => {
-    // Refresh AOS on route change
-    AOS.refresh();
-  }, [location]);
-
   return (
-    <div className="App">
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/uiuxPortfolio" element={<UIUXPortfolio />} />
+        <Route path="/" element={<Home />} />
+        {/* Legacy routes now resolve to the single-page experience */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
 export default function WrappedApp() {
-  return (
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  );
+  return <App />;
 }

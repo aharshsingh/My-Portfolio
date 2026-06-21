@@ -1,20 +1,20 @@
 # My-Portfolio
 
-Welcome to my personal portfolio repository! This project showcases my professional skills, projects, and experience as a Software Engineer, UI/UX Designer, and Blogger. Developed using ReactJs and NodeJs.
+Welcome to my personal portfolio! A bold, dark, single-page experience showcasing my skills, projects, and journey as a Full Stack Developer. Built with React and Tailwind CSS.
 
 ## Features
 
-- **Responsive Design**: Optimized for various devices, ensuring a seamless experience on desktops, tablets, and smartphones.
-- **Interactive UI**: Engaging user interface built with React, featuring smooth transitions and dynamic content.
-- **Projects Showcase**: Detailed display of my projects, including descriptions, technologies used, and live demo links.
-- **Blog Section**: A collection of my blog posts, sharing insights on software development, UI/UX design, and industry trends.
-- **Contact Form**: Functional contact form to get in touch with me directly through the website.
+- **Single-page experience**: Smooth-scroll navigation across Hero, About, Skills, Experience, Projects, and Contact sections.
+- **Modern dark UI**: Glassmorphism cards, glowing gold gradient accents, an animated aurora + grid background, and a custom typographic system (Space Grotesk + Inter).
+- **Motion**: Scroll-reveal animations (IntersectionObserver), a typewriter role intro, a tech-stack marquee, and subtle hover/float effects — all respecting `prefers-reduced-motion`.
+- **Fully responsive**: Optimized for desktop, tablet, and mobile, with a glass mobile menu.
+- **Content-driven**: All copy, skills, experience, and projects live in `src/data/portfolio.js` for easy editing.
 
 ## Tech Stack
 
-- **React**: Frontend library for creating a dynamic and responsive user interface.
-- **Node.js**: JavaScript runtime for building the server-side application.
-- **CSS3**: For styling the components and ensuring a modern and consistent look.
+- **React**: Component-based single-page UI.
+- **Tailwind CSS**: Utility-first styling with a custom theme.
+- **Custom CSS**: Design tokens, gradients, and keyframe animations.
 
 ## Deployment
 
